@@ -1,0 +1,13 @@
+{
+  "uuid": "guake-indicator@eddygz",
+  "name": "Guake Indicator",
+  "description": "This is an indicator for the guake-terminal program.",
+  "shell-version": [
+    "3.10", 
+    "3.12", 
+    "3.14", 
+    "3.16"
+  ],
+  "url": "https://github.com/", 
+  "version": 1
+}
