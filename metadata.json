@@ -7,8 +7,10 @@
     "3.12", 
     "3.14", 
     "3.16",
-    "3.18"
+    "3.18", 
+    "3.20",
+    "3.22"
   ],
   "url": "https://github.com/EddyGz/guake-indicator", 
-  "version": 1
+  "version": 1.01
 }
