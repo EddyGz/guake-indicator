@@ -19,16 +19,8 @@ const Util = imports.misc.util;
 
 const GuakeCMD = 'guake'
 
-let guakevisible = false;
-
 function _toggleGuake() {
-    if (guakevisible) {
-        Util.spawn([GuakeCMD, '--hide'])  
-        guakevisible = false
-    } else {      
-        Util.spawn([GuakeCMD, '--show']) 
-        guakevisible = true
-    }
+    Util.spawn([GuakeCMD, '--toggle-visibility']) 
 }
 
 function init() {
